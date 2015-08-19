@@ -12,6 +12,7 @@ import sqlite3
 app = Flask(__name__)
 
 DATABASE = 'DB/broado.db'
+#Keep debug = ON
 DEBUG = True
 
 app.secret_key = os.urandom(24)
